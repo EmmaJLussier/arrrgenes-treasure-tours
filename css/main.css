@@ -56,6 +56,10 @@ body {
   text-decoration: none;
 }
 
+.nav a:focus {
+  outline: .15rem solid #fff;
+}
+
 .banner {
   display: grid;
   grid-template-columns: 1fr;
